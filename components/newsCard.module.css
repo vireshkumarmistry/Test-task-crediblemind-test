@@ -1,0 +1,78 @@
+.newsCardBlock {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #e9eced;
+	cursor: pointer;
+}
+.newsCardBlock:hover h5 {
+	color: #24619b;
+}
+.newsCardBlock .imgWrap {
+	width: 100%;
+	height: 215px;
+	max-width: 350px;
+	min-width: 350px;
+	margin-right: 30px;
+}
+.newsCardBlock .imgWrap img {
+	max-width: 100%;
+	height: 100%;
+	object-fit: cover;
+	width: 100%;
+}
+.newsContentWrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	flex: 1;
+}
+.newsContentWrapper h6 {
+	color: #24619b;
+	font-size: 14px;
+	margin: 0 0 10px;
+	display: flex;
+}
+.newsContentWrapper h6 .contentTitle:not(:last-child) {
+	border-right: 1px solid #e9eced;
+	padding-right: 10px;
+	margin-right: 8px;
+}
+.newsContentWrapper p {
+	color: #4b4b4b;
+	font-size: 18px;
+	margin-bottom: 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	margin-bottom: 30px;
+	flex: 1;
+}
+.newsContentWrapper h5 {
+	color: #4b4b4b;
+	font-weight: bold;
+	margin-bottom: 0;
+	font-size: 18px;
+	margin-top: 0;
+	height: 42px;
+}
+.dateWrap {
+	display: flex;
+	margin-top: 20px;
+	align-items: center;
+}
+.dateWrap h3 {
+	margin: 0;
+	color: #4b4b4b;
+	font-size: 16px;
+	font-weight: 300;
+	border-right: 1px solid #e9eced;
+	padding-right: 14px;
+	margin-right: 14px;
+}
+.dateWrap span {
+	color: #24619b;
+	font-size: 16px;
+}
